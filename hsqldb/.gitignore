@@ -1,0 +1,5 @@
+/build/
+/hsqldb/
+/integration/
+/src/
+/server.properties
