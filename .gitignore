@@ -1,2 +1,5 @@
 .settings/org.eclipse.jdt.core.prefs
 /bin/
+TournamentDB.properties
+TournamentDB.log
+TournamentDB.lck
