@@ -1,18 +1,17 @@
-import java.util.UUID;
-
 public class School {
 	
-	String SchoolID;
-	String SchoolName;
-	String Address;
-	String City;
-	String StateCode;
-	String Zip;
-	String CountyName;
-	String Phone;
-	String Fax;
-	int EnrollmentAmount;
+	private String SchoolID;
+	private String SchoolName;
+	private String Address;
+	private String City;
+	private String StateCode;
+	private String Zip;
+	private String CountyName;
+	private String Phone;
+	private String Fax;
+	private int EnrollmentAmount;
 	
+	//Defines a School
 	public School(String SchoolID, String SchoolName, String Address, String City, String StateCode, String Zip, String CountyName, String Phone, String Fax, int EnrollmentAmount) {
 		
 		this.SchoolID = SchoolID;

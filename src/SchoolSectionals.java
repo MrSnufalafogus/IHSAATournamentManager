@@ -1,9 +1,10 @@
 
 public class SchoolSectionals {
 	
-	String SectionalID;
-	String SchoolID;
+	private String SectionalID;
+	private String SchoolID;
 	
+	//Defines a School Sectional
 	public SchoolSectionals(String sectionalID, String schoolID) {
 		
 		SectionalID = sectionalID;
@@ -25,9 +26,4 @@ public class SchoolSectionals {
 	public void setSchoolID(String schoolID) {
 		SchoolID = schoolID;
 	}
-	
-	
-	
-	
-
 }

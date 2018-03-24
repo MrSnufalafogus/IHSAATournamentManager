@@ -1,11 +1,11 @@
 
 public class States {
 	
-	String StateID;
-	String HostSchoolID;
-	String TournamentID;
+	private String StateID;
+	private String HostSchoolID;
+	private String TournamentID;
 	
-	
+	//Defines a State
 	public States(String stateID, String hostSchoolID, String tournamentID) {
 		
 		StateID = stateID;

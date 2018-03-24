@@ -6,6 +6,7 @@ public class SemiStates {
 	String TournamentID;
 	String ParentStateID;
 	
+	//Defines a Semi-State
 	public SemiStates(String semiStateID, String hostSchoolID, String tournamentID, String parentStateID) {
 		
 		SemiStateID = semiStateID;
@@ -44,10 +45,6 @@ public class SemiStates {
 
 	public void setParentStateID(String parentStateID) {
 		ParentStateID = parentStateID;
-	}
-	
-	
-	
-	
+	}	
 
 }

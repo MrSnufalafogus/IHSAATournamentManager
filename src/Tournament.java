@@ -1,9 +1,10 @@
 
 public class Tournament {
 	
-	String TournamentID;
-	String TournamentName;
+	private String TournamentID;
+	private String TournamentName;
 	
+	//Defines a Tournament
 	public Tournament(String tournamentID, String tournamentName) {
 		
 		TournamentID = tournamentID;
@@ -22,8 +23,6 @@ public class Tournament {
 	}
 	public void setTournamentName(String tournamentName) {
 		TournamentName = tournamentName;
-	}
-	
-	
+	}	
 	
 }

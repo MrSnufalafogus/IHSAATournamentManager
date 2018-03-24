@@ -1,10 +1,10 @@
 
 public class Regionals {
 	
-	String RegionalID;
-	String HostSchool;
-	String Tournament;
-	String ParetnSemiStateID;
+	private String RegionalID;
+	private String HostSchool;
+	private String Tournament;
+	private String ParetnSemiStateID;
 	
 	public Regionals(String regionalID, String hostSchool, String tournament, String paretnSemiStateID) {
 		
